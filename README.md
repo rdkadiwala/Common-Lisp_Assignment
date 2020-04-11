@@ -12,6 +12,21 @@
 > (maxlist ’() ’(6 1 9))
 (6 1 9)
 ```
+### Question - 2
+> Define a Common Lisp function diff that takes two non-empty lists of equal length as arguments and produces a list whose elements correspond to the cubed differences between the corresponding elements of the two arguments. You must check
+for all preconditions. We may assume that non-empty list arguments contain only numeral elements. Example executions are as follows:
+
+> *__Tese Cases:__*
+```
+> (diff ’3 ’(5 1 -4))
+NIL
+> (diff ’() ’(3 4))
+NIL
+> (diff ’(5 7) ’(1 3 7 9))
+NIL
+> (diff ’(3 5 -2) ’(5 1 -4))
+(-8 64 8)
+```
 ### Question - 3
 > Define a Common Lisp function (mins list1 list3 list3 ) that takes three nonempty lists of equal length and produces a list whose elements correspond to the cubed minimum between the corresponding elements of the three arguments. You must check
 for all preconditions. We may assume that non-empty list arguments contain only
