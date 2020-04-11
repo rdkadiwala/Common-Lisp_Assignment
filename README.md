@@ -43,4 +43,24 @@ NIL
 > (mins ’(2 1 5) ’(1 2 4) ’(2 3 4))
 (1 1 64)
 ```
-
+### Question - 4
+> Define a Common Lisp function (filter list numeral) that takes two arguments, a) a non-empty list of integers, and b) a positive integer, and produces a list whose elements are those elements of the first argument that are larger than the second
+argument. You must check for all preconditions. We may assume that a non-empty list argument contains only numeral elements. Example executions are as follows:
+  
+> *__Tese Cases:__*
+```
+> (filter ’5 3)
+NIL
+> (filter ’() 5)
+NIL
+> (filter ’(7 9 11) ’(2))
+NIL
+> (filter ’(3 4 5) ’0)
+NIL
+> (filter ’(3 4 5) ’2.5)
+NIL
+> (filter ’(3 4 5) ’0)
+NIL
+> (filter ’(5 9 3 2 11) ’7)
+(9 11)
+```
