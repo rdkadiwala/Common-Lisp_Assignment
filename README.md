@@ -12,7 +12,7 @@
 > (maxlist ’() ’(6 1 9))
 (6 1 9)
 ```
-### Question - 2
+### Question - 3
 > Define a Common Lisp function (mins list1 list3 list3 ) that takes three nonempty lists of equal length and produces a list whose elements correspond to the cubed minimum between the corresponding elements of the three arguments. You must check
 for all preconditions. We may assume that non-empty list arguments contain only
 numeral elements. Example executions are as follows:
